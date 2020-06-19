@@ -115,7 +115,7 @@ app.post("/changepassword", (req, res) => {
     //         /*user: process.env.EMAIL || 'abc@gmail.com', // TODO: your gmail account
     //         pass: process.env.PASSWORD || '1234' // TODO: your gmail password*/
     //         user: "marcnishaanth2696@gmail.com", // generated ethereal user
-    //         pass: "Goku1996!", // generated ethereal password
+    //         pass: "", // generated ethereal password
     //     }
     // });
 
