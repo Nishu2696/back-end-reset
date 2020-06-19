@@ -12,7 +12,7 @@ const mongoClient = mongodb.MongoClient;
 //const dbURL = "mongodb://localhost:27017";
 const dbURL = `mongodb+srv://Nishu2696:Goku1996!@cluster0-fsljb.mongodb.net/<dbname>?retryWrites=true&w=majority`;
 
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 
 const nodemailer = require("nodemailer");
 
