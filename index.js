@@ -22,7 +22,8 @@ const exphbs = require("express-handlebars");
 app.engine("handlebars", exphbs());
 app.set("view engine", "handlebars");
 
-app.listen(port, () => {
+app.listen(port, (req, res) => {
+    res.send("hello");
     console.log("hello");
     console.log("listening in port " + port)
 });
