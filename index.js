@@ -18,12 +18,8 @@ const nodemailer = require("nodemailer");
 
 require("dotenv").config();
 
-const exphbs = require("express-handlebars");
-app.engine("handlebars", exphbs());
-app.set("view engine", "handlebars");
 
-app.listen(port, (req, res) => {
-    res.send("hello");
+app.listen(port, () => {
     console.log("hello");
     console.log("listening in port " + port)
 });
